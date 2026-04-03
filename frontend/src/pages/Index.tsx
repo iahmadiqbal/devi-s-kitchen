@@ -29,25 +29,25 @@ const services = [
   { 
     icon: Utensils, 
     title: "Bulk Meal Supply", 
-    desc: "High-volume meal solutions for hospitals and large facilities.",
+    desc: "High-volume meal solutions for hospitals and large facilities. Our commercial kitchen is equipped to prepare hundreds of meals daily while maintaining the highest quality standards. We specialize in serving healthcare institutions, senior living communities, and large organizations. Each meal is prepared with strict adherence to nutritional guidelines and food safety protocols. Our efficient logistics ensure timely delivery, keeping meals fresh and at the right temperature. Trust us to handle your bulk meal needs with professionalism and care.",
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"
   },
   { 
     icon: Truck, 
     title: "Daily Meal Delivery", 
-    desc: "Fresh meals delivered to your doorstep every day.",
+    desc: "Fresh meals delivered to your doorstep every day. Wake up knowing that a nutritious, home-style meal is on its way to you. Our daily delivery service ensures you never have to worry about meal planning or cooking. Each dish is prepared fresh in the morning using quality ingredients and traditional recipes. We offer flexible delivery windows to fit your schedule, whether you need breakfast, lunch, or dinner. Our reliable delivery team ensures your meals arrive on time, every time. Enjoy the convenience of restaurant-quality food in the comfort of your home.",
     image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80"
   },
   { 
     icon: CalendarDays, 
     title: "Monthly Tiffin Plans", 
-    desc: "Affordable subscription plans for individuals and families.",
+    desc: "Affordable subscription plans for individuals and families. Save time and money with our convenient monthly tiffin service. Subscribe once and enjoy hassle-free meal delivery throughout the month without daily ordering. Our plans are designed to offer the best value, with significant savings compared to daily meal purchases. Choose from various options including lunch-only, dinner-only, or full-day meal plans. We offer complete flexibility—pause, skip days, or adjust your subscription anytime without penalties. Perfect for busy professionals, seniors, and families who value both nutrition and convenience.",
     image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80"
   },
   { 
     icon: Salad, 
     title: "Special Dietary Meals", 
-    desc: "Customized meals for diabetic, heart-healthy, and other dietary needs.",
+    desc: "Customized meals for diabetic, heart-healthy, and other dietary needs. Managing a health condition shouldn't mean sacrificing flavor or satisfaction. Our special dietary meals are designed by nutritionists to meet specific medical and dietary requirements. We offer low-sodium options for heart health, diabetic-friendly meals with controlled carbohydrates, and many other specialized diets. Each meal is carefully portioned and labeled with complete nutritional information. Our chefs use creative recipes and quality ingredients to ensure your therapeutic diet is both healthy and delicious. Let us support your health journey with meals that truly care.",
     image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80"
   },
 ];

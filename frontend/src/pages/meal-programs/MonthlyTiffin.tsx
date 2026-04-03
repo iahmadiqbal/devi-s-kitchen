@@ -85,7 +85,7 @@ const MonthlyTiffin = () => {
             <AnimatedSection direction="right">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1554224311-beee460201b4?w=800&q=80"
+                  src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80"
                   alt="Pricing and Flexibility"
                   className="rounded-2xl shadow-lg w-full h-64 object-cover hover:scale-110 transition-transform duration-700"
                 />
@@ -160,7 +160,7 @@ const MonthlyTiffin = () => {
             <AnimatedSection direction="right">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80"
+                  src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=800&q=80"
                   alt="Ideal for Seniors"
                   className="rounded-2xl shadow-lg w-full h-64 object-cover hover:scale-110 transition-transform duration-700"
                 />
