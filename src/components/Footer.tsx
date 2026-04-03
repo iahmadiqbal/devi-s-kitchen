@@ -49,9 +49,9 @@ const Footer = () => (
             </div>
           </div>
           <div className="flex gap-4 mt-4">
-            <a href="#" className="text-footer-text hover:text-primary transition-colors"><Facebook className="w-5 h-5" /></a>
-            <a href="#" className="text-footer-text hover:text-primary transition-colors"><Instagram className="w-5 h-5" /></a>
-            <a href="#" className="text-footer-text hover:text-primary transition-colors"><Twitter className="w-5 h-5" /></a>
+            <a href="#" aria-label="Facebook" className="text-footer-text hover:text-primary transition-colors text-sm font-medium">FB</a>
+            <a href="#" aria-label="Instagram" className="text-footer-text hover:text-primary transition-colors text-sm font-medium">IG</a>
+            <a href="#" aria-label="Twitter" className="text-footer-text hover:text-primary transition-colors text-sm font-medium">TW</a>
           </div>
         </div>
       </div>
