@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone } from "lucide-react";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => (
   <footer className="bg-footer text-footer-text pt-16 pb-8">
@@ -48,10 +49,39 @@ const Footer = () => (
               <a href="tel:+14034617619" className="hover:text-primary transition-colors">+1 403-461-7619</a>
             </div>
           </div>
-          <div className="flex gap-4 mt-4">
-            <a href="#" aria-label="Facebook" className="text-footer-text hover:text-primary transition-colors text-sm font-medium">FB</a>
-            <a href="#" aria-label="Instagram" className="text-footer-text hover:text-primary transition-colors text-sm font-medium">IG</a>
-            <a href="#" aria-label="Twitter" className="text-footer-text hover:text-primary transition-colors text-sm font-medium">TW</a>
+          
+          {/* Social Media */}
+          <div className="mt-6">
+            <h5 className="text-primary-foreground font-semibold mb-3 text-sm">Follow Us</h5>
+            <div className="flex gap-3">
+              <a 
+                href="https://www.facebook.com/deviskitchen01/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Facebook" 
+                className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-footer-text hover:bg-primary hover:text-white transition-all duration-300"
+              >
+                <FaFacebook className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://www.instagram.com/devis_kitchen01/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Instagram" 
+                className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-footer-text hover:bg-primary hover:text-white transition-all duration-300"
+              >
+                <FaInstagram className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://x.com/DeviK8993" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Twitter/X" 
+                className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-footer-text hover:bg-primary hover:text-white transition-all duration-300"
+              >
+                <FaTwitter className="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
