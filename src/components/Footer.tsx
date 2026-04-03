@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, MapPin, Phone } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-footer text-footer-text pt-16 pb-8">
