@@ -13,6 +13,15 @@ import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import AppUnderConstruction from "./pages/AppUnderConstruction";
 import NotFound from "./pages/NotFound";
+import Hospitals from "./pages/services/Hospitals";
+import SeniorLiving from "./pages/services/SeniorLiving";
+import NGOs from "./pages/services/NGOs";
+import IndividualMeals from "./pages/services/IndividualMeals";
+import BulkSupply from "./pages/meal-programs/BulkSupply";
+import DailyDelivery from "./pages/meal-programs/DailyDelivery";
+import MonthlyTiffin from "./pages/meal-programs/MonthlyTiffin";
+import CustomPlans from "./pages/meal-programs/CustomPlans";
+import SpecialDietary from "./pages/meal-programs/SpecialDietary";
 
 const queryClient = new QueryClient();
 
@@ -26,7 +35,16 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/who-we-serve" element={<WhoWeServe />} />
+          <Route path="/services/hospitals" element={<Hospitals />} />
+          <Route path="/services/senior-living" element={<SeniorLiving />} />
+          <Route path="/services/ngos" element={<NGOs />} />
+          <Route path="/services/individual" element={<IndividualMeals />} />
           <Route path="/meal-programs" element={<MealPrograms />} />
+          <Route path="/meal-programs/bulk-supply" element={<BulkSupply />} />
+          <Route path="/meal-programs/daily-delivery" element={<DailyDelivery />} />
+          <Route path="/meal-programs/monthly-tiffin" element={<MonthlyTiffin />} />
+          <Route path="/meal-programs/custom-plans" element={<CustomPlans />} />
+          <Route path="/meal-programs/special-dietary" element={<SpecialDietary />} />
           <Route path="/nutrition-quality" element={<NutritionQuality />} />
           <Route path="/about" element={<About />} />
           <Route path="/careers" element={<Careers />} />

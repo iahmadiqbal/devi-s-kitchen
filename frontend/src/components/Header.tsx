@@ -9,21 +9,21 @@ const navLinks = [
     label: "Who We Serve", 
     path: "/who-we-serve",
     dropdown: [
-      { label: "Hospitals & Healthcare Facilities", path: "/who-we-serve#hospitals" },
-      { label: "Senior Living & Old Age Homes", path: "/who-we-serve#senior-living" },
-      { label: "NGOs & Community Organizations", path: "/who-we-serve#ngos" },
-      { label: "Individual Meal Services (Tiffin for Seniors)", path: "/who-we-serve#individual" },
+      { label: "Hospitals & Healthcare Facilities", path: "/services/hospitals" },
+      { label: "Senior Living & Old Age Homes", path: "/services/senior-living" },
+      { label: "NGOs & Community Organizations", path: "/services/ngos" },
+      { label: "Individual Meal Services (Tiffin for Seniors)", path: "/services/individual" },
     ]
   },
   { 
     label: "Meal Programs", 
     path: "/meal-programs",
     dropdown: [
-      { label: "Bulk Meal Supply (Hospitals & Facilities)", path: "/meal-programs#bulk-meal" },
-      { label: "Daily Meal Delivery", path: "/meal-programs#daily-delivery" },
-      { label: "Monthly Tiffin Plans", path: "/meal-programs#monthly-tiffin" },
-      { label: "Custom Meal Plans", path: "/meal-programs#custom-plans" },
-      { label: "Special Dietary Meals (Low Sodium, Diabetic, etc.)", path: "/meal-programs#special-dietary" },
+      { label: "Bulk Meal Supply (Hospitals & Facilities)", path: "/meal-programs/bulk-supply" },
+      { label: "Daily Meal Delivery", path: "/meal-programs/daily-delivery" },
+      { label: "Monthly Tiffin Plans", path: "/meal-programs/monthly-tiffin" },
+      { label: "Custom Meal Plans", path: "/meal-programs/custom-plans" },
+      { label: "Special Dietary Meals (Low Sodium, Diabetic, etc.)", path: "/meal-programs/special-dietary" },
     ]
   },
   { label: "Nutrition & Quality", path: "/nutrition-quality" },
