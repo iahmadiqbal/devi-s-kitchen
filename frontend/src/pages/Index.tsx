@@ -198,34 +198,51 @@ const Index = () => (
     </section>
 
     {/* Quotes */}
-    <section className="py-20 bg-primary/5 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-surface-light via-white to-surface-soft relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-64 h-64 bg-primary rounded-full blur-3xl" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary rounded-full blur-3xl" />
       </div>
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <AnimatedSection>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground text-center mb-4">Why Choose Us</h2>
+          <p className="text-paragraph text-center max-w-2xl mx-auto mb-16">Committed to excellence in every meal we serve</p>
+        </AnimatedSection>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           {[
             { 
-              quote: "Healthy food is the foundation of recovery.", 
-              icon: "🏥",
-              detail: "Our meals are specially designed to support patient recovery and promote healing through balanced nutrition and quality ingredients."
+              quote: "Healthy food is the foundation of recovery.",
+              detail: "Our meals are specially designed to support patient recovery and promote healing through balanced nutrition and quality ingredients.",
+              gradient: "from-primary/5 to-primary/10",
+              accentColor: "bg-primary",
+              borderColor: "border-primary/20"
             },
             { 
-              quote: "Quality nutrition for better living.", 
-              icon: "🥗",
-              detail: "We believe that everyone deserves access to nutritious, delicious meals that enhance overall health and well-being."
+              quote: "Quality nutrition for better living.",
+              detail: "We believe that everyone deserves access to nutritious, delicious meals that enhance overall health and well-being.",
+              gradient: "from-primary/10 to-primary/5",
+              accentColor: "bg-primary-dark",
+              borderColor: "border-primary/30"
             },
           ].map((item, i) => (
             <AnimatedSection key={i} delay={i * 0.2}>
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group h-full flex flex-col">
-                <div className="text-5xl mb-6 group-hover:scale-110 transition-transform duration-300 text-center">{item.icon}</div>
-                <blockquote className="text-xl md:text-2xl font-heading italic text-foreground/90 leading-relaxed mb-4 text-center flex-grow">
-                  "{item.quote}"
+              <div className={`bg-gradient-to-br ${item.gradient} rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group h-full flex flex-col border-2 ${item.borderColor} relative overflow-hidden`}>
+                {/* Decorative element */}
+                <div className={`absolute top-0 right-0 w-32 h-32 ${item.accentColor} opacity-10 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500`} />
+                
+                {/* Quote mark */}
+                <div className="text-6xl font-serif text-primary/30 leading-none mb-2">"</div>
+                
+                <blockquote className="text-2xl md:text-3xl font-heading font-bold text-foreground leading-snug mb-6 relative z-10">
+                  {item.quote}
                 </blockquote>
-                <p className="text-paragraph text-sm leading-relaxed text-center border-t border-gray-200 pt-4">
+                
+                <p className="text-paragraph text-base leading-relaxed mt-auto relative z-10">
                   {item.detail}
                 </p>
+                
+                {/* Bottom accent line */}
+                <div className={`h-1 ${item.accentColor} w-20 mt-6 rounded-full group-hover:w-full transition-all duration-500`} />
               </div>
             </AnimatedSection>
           ))}
