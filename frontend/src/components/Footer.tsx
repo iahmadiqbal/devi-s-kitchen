@@ -4,24 +4,22 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => (
   <>
-    {/* Get in Touch Section */}
-    <section className="bg-surface-light py-16">
-      <div className="container mx-auto px-4 text-center max-w-3xl">
-        <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-4">
-          Get in Touch for Meal Services
-        </h2>
-        <p className="text-lg text-text-paragraph mb-6">
-          Let us design a meal plan that fits your needs and budget.
-        </p>
-        <p className="text-base text-text-paragraph mb-8">
-          Our menu pricing is coming soon — stay tuned for something delicious.
-        </p>
-        <Link
-          to="/contact"
-          className="inline-block px-8 py-3 bg-primary text-primary-foreground text-lg font-semibold hover:bg-primary-dark transition-colors"
-        >
-          Contact Us
-        </Link>
+    {/* Custom Meal Plans Section */}
+    <section className="relative bg-gradient-to-br from-primary/5 via-surface-light to-primary/10 py-12 overflow-hidden">
+      {/* Decorative Elements */}
+      <div className="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute bottom-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Single Feature Line */}
+          <div className="flex items-center justify-center gap-3 text-lg text-text-paragraph">
+            <span className="text-2xl">🍽️</span>
+            <span className="font-semibold">Custom Meal Plans</span>
+            <span className="hidden sm:inline">—</span>
+            <span className="hidden sm:inline">Tailored to your dietary needs and preferences</span>
+          </div>
+        </div>
       </div>
     </section>
 
