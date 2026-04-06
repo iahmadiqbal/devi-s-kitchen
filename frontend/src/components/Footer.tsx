@@ -3,7 +3,29 @@ import { MapPin, Phone } from "lucide-react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => (
-  <footer className="bg-footer text-footer-text pt-16 pb-8">
+  <>
+    {/* Get in Touch Section */}
+    <section className="bg-surface-light py-16">
+      <div className="container mx-auto px-4 text-center max-w-3xl">
+        <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          Get in Touch for Meal Services
+        </h2>
+        <p className="text-lg text-text-paragraph mb-6">
+          Let us design a meal plan that fits your needs and budget.
+        </p>
+        <p className="text-base text-text-paragraph mb-8">
+          Our menu pricing is coming soon — stay tuned for something delicious.
+        </p>
+        <Link
+          to="/contact"
+          className="inline-block px-8 py-3 bg-primary text-primary-foreground text-lg font-semibold hover:bg-primary-dark transition-colors"
+        >
+          Contact Us
+        </Link>
+      </div>
+    </section>
+
+    <footer className="bg-footer text-footer-text pt-16 pb-8">
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
@@ -42,7 +64,7 @@ const Footer = () => (
           <div className="space-y-3 text-sm">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-              <span>13G-2115 27 Ave NE, Calgary, Alberta, T2E7E4</span>
+              <span>2115 27 Ave NE, Calgary, Alberta, T2E7E4</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 shrink-0 text-primary" />
@@ -91,6 +113,7 @@ const Footer = () => (
       </div>
     </div>
   </footer>
+  </>
 );
 
 export default Footer;

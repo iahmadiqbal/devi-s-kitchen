@@ -52,7 +52,7 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
       <div className="w-full px-6 lg:px-20 max-w-[1400px] mx-auto">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+        <div className="flex items-center justify-between h-16 lg:h-20 gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center gap-2.5 flex-shrink-0 ml-0 lg:ml-32">
             <img src="/logo.svg" alt="Devi's Kitchen" className="h-11 w-11 lg:h-14 lg:w-14" />
@@ -98,7 +98,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="border-b border-gray-300 ml-0 lg:ml-32 mr-0 lg:mr-32"></div>
+        <div className="border-b ml-0 lg:ml-32 mr-0 lg:mr-32" style={{ borderWidth: '1px', borderColor: '#000000' }}></div>
       </div>
 
       {/* Navigation Bar */}
@@ -164,7 +164,6 @@ const Header = () => {
               </div>
               ))}
             </nav>
-            <div className="border-b border-gray-200"></div>
           </div>
         </div>
       </div>
@@ -225,6 +224,14 @@ const Header = () => {
                   )}
                 </div>
               ))}
+              <hr className="border-gray-200 my-2" />
+              <Link 
+                to="/app-under-construction"
+                className="flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gray-300 text-[#2D2D2D] text-sm font-semibold hover:border-[#C4A574] hover:text-[#C4A574] transition-colors"
+              >
+                <Download className="w-4 h-4" />
+                <span>Download App</span>
+              </Link>
             </div>
           </motion.div>
         )}
