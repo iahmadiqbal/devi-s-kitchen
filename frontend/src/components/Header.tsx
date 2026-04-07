@@ -52,10 +52,10 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
       <div className="w-full px-3 sm:px-4 lg:px-20 max-w-[1400px] mx-auto">
-        <div className="flex items-center justify-between h-20 lg:h-24 gap-2 sm:gap-4">
+        <div className="flex items-center justify-between h-14 lg:h-16 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] lg:h-[72px] lg:w-[72px]" />
+            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[40px] w-[40px] sm:h-[48px] sm:w-[48px] lg:h-[52px] lg:w-[52px]" />
           </Link>
 
           {/* Right Actions */}
@@ -109,7 +109,7 @@ const Header = () => {
                 {link.dropdown ? (
                   <>
                     <button
-                      className={`flex items-center gap-1 text-[15px] font-semibold px-5 py-4 transition-colors whitespace-nowrap ${
+                      className={`flex items-center gap-1 text-[15px] font-semibold px-5 py-2 transition-colors whitespace-nowrap ${
                         location.pathname.startsWith(link.path) && link.path !== "/" 
                           ? "text-primary" 
                           : "text-foreground hover:text-primary"
@@ -145,7 +145,7 @@ const Header = () => {
                 ) : (
                   <Link
                     to={link.path}
-                    className={`block text-[15px] font-semibold px-5 py-4 transition-colors whitespace-nowrap ${
+                    className={`block text-[15px] font-semibold px-5 py-2 transition-colors whitespace-nowrap ${
                       location.pathname === link.path 
                         ? "text-primary" 
                         : "text-foreground hover:text-primary"
