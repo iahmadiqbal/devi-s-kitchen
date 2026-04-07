@@ -5,11 +5,13 @@ import AnnouncementBanner from "./AnnouncementBanner";
 interface Props {
   title?: string;
   subtitle?: string;
+  showAnnouncement?: boolean;
 }
 
 const CTASection = ({
   title = "Get in Touch for Meal Services",
   subtitle = "Let us design a meal plan that fits your needs and budget.",
+  showAnnouncement = true,
 }: Props) => (
   <>
     <section className="py-20 bg-footer text-footer-text">
@@ -28,7 +30,7 @@ const CTASection = ({
         </AnimatedSection>
       </div>
     </section>
-    <AnnouncementBanner />
+    {showAnnouncement && <AnnouncementBanner />}
   </>
 );
 

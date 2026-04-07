@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import AnimatedSection from "../components/AnimatedSection";
+import CTASection from "../components/CTASection";
 import { Link } from "react-router-dom";
 
 const jobs = [
@@ -87,6 +88,7 @@ const Careers = () => (
         </div>
       </div>
     </section>
+    <CTASection />
   </Layout>
 );
 
