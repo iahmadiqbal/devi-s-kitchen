@@ -9,8 +9,8 @@ const Footer = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-3 mb-4">
-            <img src="/mylogotwo.png" alt="Devi's Kitchen" className="h-[70px] w-[70px] sm:h-[80px] sm:w-[80px]" />
+          <div className="mb-4">
+            <img src="/transparentlogo.png" alt="Devi's Kitchen" className="h-[70px] w-[120px] sm:h-[80px] sm:w-[135px]" />
           </div>
           <p className="text-sm sm:text-base leading-relaxed">
             Affordable, nutritious meals for healthcare facilities, senior living homes, and individuals across Calgary.
@@ -43,7 +43,7 @@ const Footer = () => (
           <div className="space-y-3 text-sm sm:text-base">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-              <span>2115 27 Ave NE, Calgary, Alberta, T2E7E4</span>
+              <span>27 Ave NE, Calgary, Alberta, T2E7E4</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 shrink-0 text-primary" />

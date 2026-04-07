@@ -23,7 +23,7 @@ const CTASection = ({
           <p className="text-footer-text max-w-xl mx-auto mb-8">{subtitle}</p>
           <Link
             to="/contact"
-            className="inline-block px-8 py-3 bg-primary text-foreground font-medium rounded-md hover:bg-primary-dark transition-colors"
+            className="inline-block px-8 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary-dark transition-all duration-300"
           >
             Contact Us
           </Link>

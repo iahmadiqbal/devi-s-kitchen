@@ -86,7 +86,7 @@ const HeroSlider = () => {
               </h1>
               <p className="text-primary-foreground/80 text-lg md:text-xl mb-8 max-w-2xl">{slide.sub}</p>
               <div className="flex gap-4 flex-wrap justify-center">
-                <Link to="/contact" className="px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary-dark transition-colors">
+                <Link to="/contact" className="px-6 py-3 bg-footer text-footer-text font-medium rounded-md hover:bg-footer/80 transition-all duration-300">
                   Contact Us
                 </Link>
                 <Link to="/meal-programs" className="px-6 py-3 border border-primary-foreground text-primary-foreground font-medium rounded-md hover:bg-primary-foreground/10 transition-colors">

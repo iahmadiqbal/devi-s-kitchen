@@ -52,10 +52,10 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
       <div className="w-full px-3 sm:px-4 lg:px-20 max-w-[1400px] mx-auto">
-        <div className="flex items-center justify-between h-14 lg:h-16 gap-2 sm:gap-4">
+        <div className="flex items-center justify-between h-20 lg:h-22 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[40px] w-[40px] sm:h-[48px] sm:w-[48px] lg:h-[52px] lg:w-[52px]" />
+            <img src="/logo.png" alt="Devi's Kitchen" className="h-[50px] w-[85px] sm:h-[60px] sm:w-[100px]" />
           </Link>
 
           {/* Right Actions */}
@@ -69,7 +69,7 @@ const Header = () => {
             </a>
             <Link
               to="/contact"
-              className="px-2.5 sm:px-3 md:px-5 py-1.5 sm:py-2 bg-primary text-primary-foreground text-xs sm:text-sm lg:text-[15px] font-semibold hover:bg-primary-dark transition-colors whitespace-nowrap"
+              className="px-2.5 sm:px-3 md:px-5 py-1.5 sm:py-2 bg-footer text-footer-text text-xs sm:text-sm lg:text-[15px] font-semibold hover:bg-footer/80 transition-all duration-300 whitespace-nowrap"
             >
               Contact Us
             </Link>

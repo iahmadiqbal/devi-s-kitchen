@@ -49,7 +49,7 @@ const AppUnderConstruction = () => {
           
           <Link
             to="/contact"
-            className="inline-block px-6 py-3 bg-primary text-white font-medium rounded-md hover:bg-primary/90 transition-colors"
+            className="inline-block px-6 py-3 bg-footer text-footer-text font-medium rounded-md hover:bg-footer/80 transition-all duration-300"
           >
             Contact Us Now
           </Link>

@@ -76,7 +76,7 @@ const Careers = () => (
                   </ul>
                   <Link 
                     to="/contact" 
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary-dark transition-all duration-300 group-hover:gap-3"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-footer text-footer-text font-semibold rounded-lg hover:bg-footer/80 transition-all duration-300 group-hover:gap-3"
                   >
                     View Details
                     <span className="text-xl transition-all">→</span>
