@@ -75,7 +75,7 @@ const Header = () => {
             </Link>
             <Link
               to="/app-under-construction"
-              className="hidden lg:flex items-center gap-2 px-5 py-2 border-2 border-gray-300 text-foreground text-[15px] font-medium hover:border-primary hover:text-primary transition-colors whitespace-nowrap"
+              className="hidden lg:flex items-center gap-2 px-5 py-2 border-2 border-gray-300 text-foreground text-[15px] font-medium hover:border-primary hover:text-primary transition-colors whitespace-nowrap rounded-md"
             >
               <Download className="w-4 h-4" />
               <span>Download App</span>
@@ -220,7 +220,7 @@ const Header = () => {
               <hr className="border-gray-200 my-2" />
               <Link 
                 to="/app-under-construction"
-                className="flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gray-300 text-foreground text-sm font-semibold hover:border-primary hover:text-primary transition-colors"
+                className="flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gray-300 text-foreground text-sm font-semibold hover:border-primary hover:text-primary transition-colors rounded-md"
               >
                 <Download className="w-4 h-4" />
                 <span>Download App</span>
