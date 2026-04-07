@@ -57,7 +57,7 @@ const WhoWeServe = () => (
             <AnimatedSection direction={i % 2 === 0 ? "right" : "left"} className="lg:w-1/2">
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-4">{s.title}</h2>
               <p className="text-paragraph leading-relaxed mb-6">{s.desc}</p>
-              <a href="/contact" className="inline-block px-6 py-3 bg-footer text-footer-text font-medium rounded-md hover:bg-footer/80 transition-all duration-300">
+              <a href="/contact" className="inline-block px-6 py-3 bg-footer text-white font-medium rounded-md hover:bg-footer/80 transition-all duration-300">
                 Contact Us
               </a>
             </AnimatedSection>
