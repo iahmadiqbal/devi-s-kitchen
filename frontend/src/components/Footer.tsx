@@ -4,33 +4,17 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => (
   <>
-    {/* Custom Meal Plans Section */}
-    <section className="relative bg-gradient-to-br from-primary/5 via-surface-light to-primary/10 py-12 overflow-hidden">
-      {/* Decorative Elements */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Single Feature Line */}
-          <div className="flex items-center justify-center gap-3 text-lg text-text-paragraph">
-            <span className="text-2xl">🍽️</span>
-            <span className="font-semibold">Custom Meal Plans</span>
-            <span className="hidden sm:inline">—</span>
-            <span className="hidden sm:inline">Tailored to your dietary needs and preferences</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <footer className="bg-footer text-footer-text pt-16 pb-8">
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
         <div>
-          <h3 className="font-heading text-xl text-primary-foreground font-bold mb-4">
-            Devi's <span className="text-primary">Kitchen</span>
-          </h3>
+          <div className="flex items-center gap-2 mb-4">
+            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-12 w-12" />
+            <h3 className="font-heading text-xl text-primary-foreground font-bold">
+              Devi's <span className="text-primary">Kitchen</span>
+            </h3>
+          </div>
           <p className="text-sm leading-relaxed">
             Affordable, nutritious meals for healthcare facilities, senior living homes, and individuals across Calgary.
           </p>
@@ -106,7 +90,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-primary/20 pt-6 text-center text-sm text-muted-foreground">
+      <div className="border-t border-primary/20 pt-6 text-center text-sm text-white">
         © {new Date().getFullYear()} Devi's Kitchen. All rights reserved.
       </div>
     </div>
