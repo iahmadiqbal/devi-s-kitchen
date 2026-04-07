@@ -54,8 +54,8 @@ const Header = () => {
       <div className="w-full px-3 sm:px-4 lg:px-20 max-w-[1400px] mx-auto">
         <div className="flex items-center justify-between h-20 lg:h-24 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
-          <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/logo.png" alt="Devi's Kitchen" width="75" height="45" className="h-[45px] w-[75px] sm:h-[80px] sm:w-[135px]" loading="eager" />
+          <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-3 mt-2 lg:mt-10">
+            <img src="/logo.png" alt="Devi's Kitchen" width="120" height="72" className="h-[75px] w-[125px] sm:h-[80px] sm:w-[135px] lg:h-[125px] lg:w-[210px] rounded-lg" loading="eager" />
           </Link>
 
           {/* Right Actions */}
@@ -91,14 +91,14 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="border-b border-foreground/20 ml-0 lg:ml-32 mr-0 lg:mr-32"></div>
+        <div className="border-b border-foreground/20 ml-0 lg:ml-[340px] mr-0 lg:mr-[140px] mt-10"></div>
       </div>
 
       {/* Navigation Bar */}
       <div className="hidden lg:block bg-white">
         <div className="w-full px-6 lg:px-20 max-w-[1400px] mx-auto">
-          <div className="ml-0 lg:ml-32 mr-0 lg:mr-32">
-            <nav className="flex items-center justify-center gap-1">
+          <div className="ml-0 lg:ml-6 mr-0 lg:mr-32">
+            <nav className="flex items-center justify-center gap-1 ml-64">
               {navLinks.map((link) => (
               <div 
                 key={link.path} 
