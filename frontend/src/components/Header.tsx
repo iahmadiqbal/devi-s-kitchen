@@ -125,14 +125,14 @@ const Header = () => {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -5 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-0 w-80 bg-white shadow-xl z-50 border-t-[3px] border-primary"
+                          className="absolute top-full left-0 mt-0 w-96 bg-white shadow-2xl z-50 border-t-[3px] border-primary rounded-b-lg"
                         >
-                          <div className="py-2">
+                          <div className="py-3">
                             {link.dropdown.map((item) => (
                               <Link
                                 key={item.path}
                                 to={item.path}
-                                className="block px-5 py-3 text-sm text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-150"
+                                className="block px-6 py-4 text-[15px] text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-150 hover:pl-8"
                               >
                                 {item.label}
                               </Link>

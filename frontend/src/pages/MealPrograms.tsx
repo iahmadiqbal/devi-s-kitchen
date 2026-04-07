@@ -44,7 +44,7 @@ const programs = [
 const MealPrograms = () => (
   <Layout>
     <section 
-      className="py-32 md:py-40 bg-surface-light relative bg-cover bg-center"
+      className="pt-48 pb-40 md:pt-64 md:pb-56 bg-surface-light relative bg-cover bg-center flex items-center min-h-[550px] md:min-h-[650px]"
       style={{
         backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&q=80')"
       }}

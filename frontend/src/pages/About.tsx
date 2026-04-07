@@ -14,7 +14,7 @@ const whyUs = [
 const About = () => (
   <Layout>
     <section 
-      className="py-32 md:py-40 bg-surface-light relative bg-cover bg-center"
+      className="pt-40 pb-32 md:pt-52 md:pb-44 bg-surface-light relative bg-cover bg-center flex items-center min-h-[480px] md:min-h-[550px]"
       style={{
         backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80')"
       }}
