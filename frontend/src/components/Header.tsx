@@ -55,7 +55,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20 lg:h-22 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/logo.png" alt="Devi's Kitchen" className="h-[45px] w-[75px] sm:h-[60px] sm:w-[100px]" />
+            <img src="/logo.png" alt="Devi's Kitchen" width="75" height="45" className="h-[45px] w-[75px] sm:h-[60px] sm:w-[100px]" loading="eager" />
           </Link>
 
           {/* Right Actions */}
