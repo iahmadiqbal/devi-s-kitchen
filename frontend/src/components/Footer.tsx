@@ -9,21 +9,21 @@ const Footer = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-1 mb-4">
-            <img src="/mylogotwo.png" alt="Devi's Kitchen" className="h-[60px] w-[60px]" />
-            <h3 className="font-heading text-xl text-primary-foreground font-bold">
+          <div className="flex items-center gap-3 mb-4">
+            <img src="/mylogotwo.png" alt="Devi's Kitchen" className="h-[70px] w-[70px] sm:h-[80px] sm:w-[80px]" />
+            <h3 className="font-heading text-2xl sm:text-3xl text-primary-foreground font-bold">
               Devi's <span className="text-primary">Kitchen</span>
             </h3>
           </div>
-          <p className="text-sm leading-relaxed">
+          <p className="text-sm sm:text-base leading-relaxed">
             Affordable, nutritious meals for healthcare facilities, senior living homes, and individuals across Calgary.
           </p>
         </div>
 
         {/* Services */}
         <div>
-          <h4 className="text-primary-foreground font-semibold mb-4">Services</h4>
-          <ul className="space-y-2 text-sm">
+          <h4 className="text-primary-foreground font-semibold mb-4 text-base sm:text-lg">Services</h4>
+          <ul className="space-y-2 text-sm sm:text-base">
             <li><Link to="/meal-programs" className="hover:text-primary transition-colors">Meal Programs</Link></li>
             <li><Link to="/who-we-serve" className="hover:text-primary transition-colors">Who We Serve</Link></li>
             <li><Link to="/nutrition-quality" className="hover:text-primary transition-colors">Nutrition & Quality</Link></li>
@@ -32,8 +32,8 @@ const Footer = () => (
 
         {/* About */}
         <div>
-          <h4 className="text-primary-foreground font-semibold mb-4">About</h4>
-          <ul className="space-y-2 text-sm">
+          <h4 className="text-primary-foreground font-semibold mb-4 text-base sm:text-lg">About</h4>
+          <ul className="space-y-2 text-sm sm:text-base">
             <li><Link to="/about" className="hover:text-primary transition-colors">About Us</Link></li>
             <li><Link to="/careers" className="hover:text-primary transition-colors">Careers</Link></li>
             <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
@@ -42,8 +42,8 @@ const Footer = () => (
 
         {/* Contact */}
         <div>
-          <h4 className="text-primary-foreground font-semibold mb-4">Contact</h4>
-          <div className="space-y-3 text-sm">
+          <h4 className="text-primary-foreground font-semibold mb-4 text-base sm:text-lg">Contact</h4>
+          <div className="space-y-3 text-sm sm:text-base">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
               <span>2115 27 Ave NE, Calgary, Alberta, T2E7E4</span>

@@ -52,24 +52,19 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
       <div className="w-full px-3 sm:px-4 lg:px-20 max-w-[1400px] mx-auto">
-        <div className="flex items-center justify-between h-16 lg:h-20 gap-2 sm:gap-4">
+        <div className="flex items-center justify-between h-20 lg:h-24 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
-          <Link to="/" className="flex items-center gap-1 flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px]" />
-            <div className="flex flex-col">
-              <span className="font-heading text-sm sm:text-base lg:text-[19px] font-bold text-foreground leading-tight">
-                Devi's Kitchen
-              </span>
-            </div>
+          <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-32">
+            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] lg:h-[72px] lg:w-[72px]" />
           </Link>
 
           {/* Right Actions */}
           <div className="flex items-center gap-1.5 sm:gap-2 mr-0 lg:mr-32">
             <a 
               href="tel:+14034617619" 
-              className="hidden sm:flex items-center gap-1.5 text-foreground text-sm lg:text-[15px] font-medium hover:text-primary transition-colors"
+              className="flex items-center gap-1.5 text-foreground text-sm lg:text-[15px] font-medium hover:text-primary transition-colors"
             >
-              <Phone className="w-4 h-4" />
+              <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
               <span className="hidden sm:inline whitespace-nowrap">+1 403-461-7619</span>
             </a>
             <Link
