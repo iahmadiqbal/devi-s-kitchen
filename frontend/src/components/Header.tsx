@@ -51,7 +51,7 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
-      <div className="w-full px-6 lg:px-20 max-w-[1400px] mx-auto">
+      <div className="w-full px-4 lg:px-20 max-w-[1400px] mx-auto">
         <div className="flex items-center justify-between h-16 lg:h-20 gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center gap-1 flex-shrink-0 ml-0 lg:ml-32">
@@ -64,7 +64,7 @@ const Header = () => {
           </Link>
 
           {/* Right Actions */}
-          <div className="flex items-center gap-3 mr-0 lg:mr-32">
+          <div className="flex items-center gap-2 mr-0 lg:mr-32">
             <a 
               href="tel:+14034617619" 
               className="flex items-center gap-1.5 text-foreground text-sm lg:text-[15px] font-medium hover:text-primary transition-colors"
@@ -74,7 +74,7 @@ const Header = () => {
             </a>
             <Link
               to="/contact"
-              className="px-5 py-2 bg-primary text-primary-foreground text-sm lg:text-[15px] font-semibold hover:bg-primary-dark transition-colors whitespace-nowrap"
+              className="px-3 sm:px-5 py-2 bg-primary text-primary-foreground text-sm lg:text-[15px] font-semibold hover:bg-primary-dark transition-colors whitespace-nowrap"
             >
               Contact Us
             </Link>
@@ -89,9 +89,10 @@ const Header = () => {
             {/* Mobile Menu Toggle */}
             <button 
               onClick={() => setMenuOpen(!menuOpen)} 
-              className="lg:hidden text-foreground p-1.5"
+              className="lg:hidden text-foreground p-2 z-50 relative hover:bg-gray-100 rounded-md transition-colors flex-shrink-0"
+              aria-label="Toggle menu"
             >
-              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {menuOpen ? <X className="w-7 h-7 stroke-[2.5]" /> : <Menu className="w-7 h-7 stroke-[2.5]" />}
             </button>
           </div>
         </div>
