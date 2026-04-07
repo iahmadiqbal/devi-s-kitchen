@@ -11,9 +11,6 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-3 mb-4">
             <img src="/mylogotwo.png" alt="Devi's Kitchen" className="h-[70px] w-[70px] sm:h-[80px] sm:w-[80px]" />
-            <h3 className="font-heading text-2xl sm:text-3xl text-primary-foreground font-bold">
-              Devi's <span className="text-primary">Kitchen</span>
-            </h3>
           </div>
           <p className="text-sm sm:text-base leading-relaxed">
             Affordable, nutritious meals for healthcare facilities, senior living homes, and individuals across Calgary.
