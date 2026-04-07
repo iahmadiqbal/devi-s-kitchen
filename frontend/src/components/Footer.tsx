@@ -10,7 +10,7 @@ const Footer = () => (
         {/* Brand */}
         <div>
           <div className="mb-4">
-            <img src="/transparentlogo.png" alt="Devi's Kitchen" className="h-[70px] w-[120px] sm:h-[80px] sm:w-[135px]" />
+            <img src="/transparentlogo.png" alt="Devi's Kitchen" width="75" height="45" className="h-[45px] w-[75px] sm:h-[80px] sm:w-[135px]" loading="lazy" />
           </div>
           <p className="text-sm sm:text-base leading-relaxed">
             Affordable, nutritious meals for healthcare facilities, senior living homes, and individuals across Calgary.

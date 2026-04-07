@@ -52,10 +52,10 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
       <div className="w-full px-3 sm:px-4 lg:px-20 max-w-[1400px] mx-auto">
-        <div className="flex items-center justify-between h-20 lg:h-22 gap-2 sm:gap-4">
+        <div className="flex items-center justify-between h-20 lg:h-24 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/logo.png" alt="Devi's Kitchen" width="75" height="45" className="h-[45px] w-[75px] sm:h-[60px] sm:w-[100px]" loading="eager" />
+            <img src="/logo.png" alt="Devi's Kitchen" width="75" height="45" className="h-[45px] w-[75px] sm:h-[80px] sm:w-[135px]" loading="eager" />
           </Link>
 
           {/* Right Actions */}
