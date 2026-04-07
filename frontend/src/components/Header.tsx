@@ -54,7 +54,7 @@ const Header = () => {
       <div className="w-full px-6 lg:px-20 max-w-[1400px] mx-auto">
         <div className="flex items-center justify-between h-16 lg:h-20 gap-4">
           {/* Logo - Left with more padding */}
-          <Link to="/" className="flex items-center gap-2.5 flex-shrink-0 ml-0 lg:ml-32">
+          <Link to="/" className="flex items-center gap-1 flex-shrink-0 ml-0 lg:ml-32">
             <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[60px] w-[60px]" />
             <div className="flex flex-col">
               <span className="font-heading text-base lg:text-[19px] font-bold text-foreground leading-tight">
