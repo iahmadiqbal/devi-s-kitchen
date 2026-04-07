@@ -32,13 +32,13 @@ const Careers = () => (
     <section 
       className="py-32 md:py-40 bg-surface-light relative bg-cover bg-center"
       style={{
-        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80')"
+        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80')"
       }}
     >
       <div className="container mx-auto px-4 text-center relative z-10">
         <AnimatedSection>
-          <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">Careers</h1>
-          <p className="text-white text-xl max-w-2xl mx-auto">Join our team and make a difference in healthcare nutrition.</p>
+          <h1 className="text-5xl md:text-6xl font-heading font-bold text-primary-foreground mb-6">Careers</h1>
+          <p className="text-primary-foreground/80 text-xl max-w-2xl mx-auto">Join our team and make a difference in healthcare nutrition.</p>
         </AnimatedSection>
       </div>
     </section>

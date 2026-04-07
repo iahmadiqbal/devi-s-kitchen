@@ -46,18 +46,18 @@ const MealPrograms = () => (
     <section 
       className="py-32 md:py-40 bg-surface-light relative bg-cover bg-center"
       style={{
-        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&q=80')"
+        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&q=80')"
       }}
     >
       <div className="container mx-auto px-4 text-center relative z-10">
         <AnimatedSection>
-          <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-6">Meal Programs</h1>
-          <p className="text-white text-xl max-w-2xl mx-auto">Explore our comprehensive range of meal services designed for every need.</p>
+          <h1 className="text-5xl md:text-6xl font-heading font-bold text-primary-foreground mb-6">Meal Programs</h1>
+          <p className="text-primary-foreground/80 text-xl max-w-2xl mx-auto">Explore our comprehensive range of meal services designed for every need.</p>
         </AnimatedSection>
         {/* Quick nav */}
         <div className="flex flex-wrap justify-center gap-3 mt-8">
           {programs.map((p) => (
-            <a key={p.id} href={`#${p.id}`} className="px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/30 text-white rounded-full text-sm hover:bg-white hover:text-gray-900 transition-colors">
+            <a key={p.id} href={`#${p.id}`} className="px-4 py-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground rounded-full text-sm hover:bg-primary-foreground hover:text-gray-900 transition-colors">
               {p.title}
             </a>
           ))}

@@ -15,10 +15,10 @@ const DailyDelivery = () => {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
           <AnimatedSection>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white max-w-4xl leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary-foreground max-w-4xl leading-tight">
               Daily Meal Delivery
             </h1>
-            <p className="text-white/90 text-lg md:text-xl mt-4 max-w-2xl">
+            <p className="text-primary-foreground/80 text-lg md:text-xl mt-4 max-w-2xl">
               Fresh, nutritious meals delivered to your door every single day
             </p>
           </AnimatedSection>
