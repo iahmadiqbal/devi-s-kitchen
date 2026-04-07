@@ -51,30 +51,30 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""}`}>
       {/* Main Header Bar */}
-      <div className="w-full px-4 lg:px-20 max-w-[1400px] mx-auto">
-        <div className="flex items-center justify-between h-16 lg:h-20 gap-4">
+      <div className="w-full px-3 sm:px-4 lg:px-20 max-w-[1400px] mx-auto">
+        <div className="flex items-center justify-between h-16 lg:h-20 gap-2 sm:gap-4">
           {/* Logo - Left with more padding */}
           <Link to="/" className="flex items-center gap-1 flex-shrink-0 ml-0 lg:ml-32">
-            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[60px] w-[60px]" />
+            <img src="/mylogo.png" alt="Devi's Kitchen" className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px]" />
             <div className="flex flex-col">
-              <span className="font-heading text-base lg:text-[19px] font-bold text-foreground leading-tight">
+              <span className="font-heading text-sm sm:text-base lg:text-[19px] font-bold text-foreground leading-tight">
                 Devi's Kitchen
               </span>
             </div>
           </Link>
 
           {/* Right Actions */}
-          <div className="flex items-center gap-2 mr-0 lg:mr-32">
+          <div className="flex items-center gap-1.5 sm:gap-2 mr-0 lg:mr-32">
             <a 
               href="tel:+14034617619" 
-              className="flex items-center gap-1.5 text-foreground text-sm lg:text-[15px] font-medium hover:text-primary transition-colors"
+              className="hidden sm:flex items-center gap-1.5 text-foreground text-sm lg:text-[15px] font-medium hover:text-primary transition-colors"
             >
               <Phone className="w-4 h-4" />
               <span className="hidden sm:inline whitespace-nowrap">+1 403-461-7619</span>
             </a>
             <Link
               to="/contact"
-              className="px-3 sm:px-5 py-2 bg-primary text-primary-foreground text-sm lg:text-[15px] font-semibold hover:bg-primary-dark transition-colors whitespace-nowrap"
+              className="px-2.5 sm:px-3 md:px-5 py-1.5 sm:py-2 bg-primary text-primary-foreground text-xs sm:text-sm lg:text-[15px] font-semibold hover:bg-primary-dark transition-colors whitespace-nowrap"
             >
               Contact Us
             </Link>
@@ -89,10 +89,10 @@ const Header = () => {
             {/* Mobile Menu Toggle */}
             <button 
               onClick={() => setMenuOpen(!menuOpen)} 
-              className="lg:hidden text-foreground p-2 z-50 relative hover:bg-gray-100 rounded-md transition-colors flex-shrink-0"
+              className="lg:hidden text-foreground p-1.5 sm:p-2 z-50 relative hover:bg-gray-100 rounded-md transition-colors flex-shrink-0 ml-1"
               aria-label="Toggle menu"
             >
-              {menuOpen ? <X className="w-7 h-7 stroke-[2.5]" /> : <Menu className="w-7 h-7 stroke-[2.5]" />}
+              {menuOpen ? <X className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.5]" /> : <Menu className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.5]" />}
             </button>
           </div>
         </div>
