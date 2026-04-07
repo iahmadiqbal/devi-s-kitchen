@@ -26,8 +26,8 @@ const CTASection = ({
         </Link>
         
         {/* Menu Pricing Announcement */}
-        <div className="mt-6 flex items-center justify-center gap-2 max-w-2xl mx-auto">
-          <Star className="w-3.5 h-3.5 text-primary fill-primary flex-shrink-0 mt-0.5" />
+        <div className="mt-6 flex items-baseline justify-center gap-1 max-w-2xl mx-auto px-4">
+          <Star className="w-3 h-3 text-white fill-white flex-shrink-0" />
           <p className="text-xs md:text-sm text-footer-text leading-relaxed">
             Our menu pricing is coming soon — stay tuned for something delicious
           </p>
