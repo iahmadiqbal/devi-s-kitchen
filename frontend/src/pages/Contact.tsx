@@ -79,7 +79,7 @@ const Contact = () => {
                   ))}
                   <button
                     type="submit"
-                    className="w-full px-6 py-3 bg-white text-footer font-semibold rounded-md hover:bg-gray-100 transition-all duration-300 shadow-lg border-2 border-footer"
+                    className="w-full px-6 py-3 bg-footer text-white font-semibold rounded-md hover:bg-footer/80 transition-all duration-300"
                   >
                     Send Message
                   </button>
