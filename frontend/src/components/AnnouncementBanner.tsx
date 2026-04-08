@@ -2,7 +2,7 @@ import { Star } from "lucide-react";
 
 const AnnouncementBanner = () => {
   return (
-    <div className=" py-4 mt-2 px-4">
+    <div className=" py-4 mt-36 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="flex items-center justify-center gap-2 text-center">
           {/* Star Icon */}
