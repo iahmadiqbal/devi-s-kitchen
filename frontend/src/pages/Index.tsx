@@ -71,7 +71,7 @@ const HeroSlider = () => {
     <section className="relative overflow-hidden" ref={emblaRef}>
       <div className="flex">
         {slides.map((slide, i) => (
-          <div key={i} className="flex-[0_0_100%] min-w-0 relative h-[70vh] md:h-[85vh]">
+          <div key={i} className="flex-[0_0_100%] min-w-0 relative h-[80vh] md:h-[95vh]">
             <img 
               src={slide.image} 
               alt={slide.heading} 

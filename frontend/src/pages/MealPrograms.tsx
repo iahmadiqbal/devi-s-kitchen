@@ -66,11 +66,11 @@ const MealPrograms = () => (
     </section>
 
     {programs.map((p, i) => (
-      <section key={p.id} id={p.id} className={`py-16 ${i % 2 === 1 ? "bg-surface-light" : ""}`}>
+      <section key={p.id} id={p.id} className={`py-24 md:py-32 ${i % 2 === 1 ? "bg-surface-light" : ""}`}>
         <div className="container mx-auto px-4">
           <div className={`flex flex-col ${i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"} items-center gap-10 max-w-5xl mx-auto`}>
             <AnimatedSection direction={i % 2 === 0 ? "left" : "right"} className="lg:w-1/2">
-              <img src={p.image} alt={p.title} className="rounded-lg shadow-lg w-full h-64 md:h-80 object-cover" />
+              <img src={p.image} alt={p.title} className="rounded-lg shadow-lg w-full h-80 md:h-96 object-cover" />
             </AnimatedSection>
             <AnimatedSection direction={i % 2 === 0 ? "right" : "left"} className="lg:w-1/2">
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-4">{p.title}</h2>

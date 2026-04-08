@@ -6,7 +6,7 @@ const Hospitals = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+      <section className="relative h-[65vh] md:h-[75vh] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1600&q=80"
           alt="Hospital Food Service"

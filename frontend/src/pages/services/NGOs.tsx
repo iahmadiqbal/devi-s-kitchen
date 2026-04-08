@@ -6,7 +6,7 @@ const NGOs = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+      <section className="relative h-[65vh] md:h-[75vh] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80"
           alt="NGOs & Community Organizations"

@@ -6,7 +6,7 @@ const BulkSupply = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+      <section className="relative h-[65vh] md:h-[75vh] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80"
           alt="Bulk Meal Supply"
