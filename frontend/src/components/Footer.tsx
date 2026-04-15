@@ -43,7 +43,7 @@ const Footer = () => (
           <div className="space-y-3 text-sm sm:text-base">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-              <span>27 Ave NE, Calgary, Alberta, T2E7E4</span>
+              <span>13G-2115 27 Ave NE, Calgary, Alberta, T2E7E4</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 shrink-0 text-primary" />
